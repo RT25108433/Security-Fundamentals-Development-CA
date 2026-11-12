@@ -8,7 +8,7 @@ alphabet_reverse = "ZYXWVUTSRQPONMLKJIHGFEDCBA"
 # Declare the function for atbash encryption
 def atbash_encrypt(message):
 
-    # Declare variables for the encrypted message
+    # Declare empty variable for the encrypted message
     message_encrypted = ""
 
     # Create a for loop to handle the actual process of encryption
@@ -24,7 +24,7 @@ def atbash_encrypt(message):
 
 # Declare function for atbash decryption
 def atbash_decrypt(message):
-    # Declare empty string for the decrypted message
+    # Declare empty variable for the decrypted message
     message_decrypted = ""
 
     # Create for loop to handle process of decryption. Essentially works the same as the one above, but working in reverse.
