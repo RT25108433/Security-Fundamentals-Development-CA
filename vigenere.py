@@ -19,10 +19,14 @@ for x in range(26):
 
 
 def main():
-    # Setting up the message, key, and mode for encryption or decryption.
-    myMessage = """Bonnie was the best dog."""
-    myKey = "BONNIENICO"
-    myMode = "encrypt"  # encrypt or decrypt.
+     # # Setting up the message, key, and mode for encryption or decryption.
+    # myMessage = """Bonnie was the best dog."""
+    # myKey = "BONNIENICO"
+    # myMode = "encrypt"  # encrypt or decrypt.
+    
+    myMode = input("Do you want to encrypt or decrypt? ").lower()
+    myMessage = input("Enter the message: ")
+    myKey = input("Enter the key: ")
 
     # Call the matching function based on the mode selected.
     if myMode == "encrypt":
